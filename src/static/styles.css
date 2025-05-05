@@ -93,18 +93,30 @@ section h3 {
 
 .activity-card ul {
   margin-top: 10px;
-  padding-left: 20px;
-  list-style-type: circle;
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  padding-left: 0;
+  list-style-type: none;
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .activity-card ul li {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-size: 14px;
-  color: #444;
+  color: #2e7d32;
+  padding: 8px;
+  border-bottom: 1px solid #c8e6c9;
+}
+
+.activity-card ul li:last-child {
+  border-bottom: none;
+}
+
+.activity-card ul li:hover {
+  background-color: #c8e6c9;
+  color: #1b5e20;
+  cursor: default;
 }
 
 .form-group {
